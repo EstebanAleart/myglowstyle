@@ -77,7 +77,7 @@ export function Process() {
           <div className="text-center">
             <div className="relative h-64 mb-4 rounded-lg overflow-hidden">
               <Image
-                src="/images/tanning-application.jpg"
+                src="/images/legs-elegant.jpg"
                 alt="Aplicación de bronceado en piernas"
                 fill
                 className="object-cover"
@@ -88,7 +88,7 @@ export function Process() {
           <div className="text-center">
             <div className="relative h-64 mb-4 rounded-lg overflow-hidden">
               <Image
-                src="/images/legs-elegant.jpg"
+                src="/images/tanning-application.jpg"
                 alt="Resultado en piernas - cintura para arriba"
                 fill
                 className="object-cover"
