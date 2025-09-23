@@ -1,0 +1,138 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* MyGlowStyle Color Palette */
+  --background: #fff7f0; /* Crema suave */
+  --foreground: #8b4513; /* Marrón cálido para texto */
+  --card: #ffffff;
+  --card-foreground: #8b4513;
+  --popover: #ffffff;
+  --popover-foreground: #8b4513;
+  --primary: #d4a373; /* Dorado cálido */
+  --primary-foreground: #ffffff;
+  --secondary: #f4c7d0; /* Rosa empolvado */
+  --secondary-foreground: #8b4513;
+  --muted: #f5f5dc; /* Beige suave */
+  --muted-foreground: #a0522d;
+  --accent: #f4c7d0; /* Rosa empolvado */
+  --accent-foreground: #8b4513;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #e5d5c8;
+  --input: #ffffff;
+  --ring: #d4a373;
+  --chart-1: #d4a373;
+  --chart-2: #f4c7d0;
+  --chart-3: #fff7f0;
+  --chart-4: #e6b88a;
+  --chart-5: #f8d7da;
+  --radius: 0.75rem;
+  --sidebar: #fff7f0;
+  --sidebar-foreground: #8b4513;
+  --sidebar-primary: #d4a373;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f4c7d0;
+  --sidebar-accent-foreground: #8b4513;
+  --sidebar-border: #e5d5c8;
+  --sidebar-ring: #d4a373;
+}
+
+.dark {
+  --background: #2d1b14;
+  --foreground: #fff7f0;
+  --card: #3d2b1e;
+  --card-foreground: #fff7f0;
+  --popover: #3d2b1e;
+  --popover-foreground: #fff7f0;
+  --primary: #d4a373;
+  --primary-foreground: #2d1b14;
+  --secondary: #8b4a5c;
+  --secondary-foreground: #fff7f0;
+  --muted: #4a3b2e;
+  --muted-foreground: #c4a484;
+  --accent: #8b4a5c;
+  --accent-foreground: #fff7f0;
+  --destructive: #dc2626;
+  --destructive-foreground: #fff7f0;
+  --border: #4a3b2e;
+  --input: #3d2b1e;
+  --ring: #d4a373;
+  --chart-1: #d4a373;
+  --chart-2: #8b4a5c;
+  --chart-3: #fff7f0;
+  --chart-4: #e6b88a;
+  --chart-5: #a66b7a;
+  --sidebar: #2d1b14;
+  --sidebar-foreground: #fff7f0;
+  --sidebar-primary: #d4a373;
+  --sidebar-primary-foreground: #2d1b14;
+  --sidebar-accent: #8b4a5c;
+  --sidebar-accent-foreground: #fff7f0;
+  --sidebar-border: #4a3b2e;
+  --sidebar-ring: #d4a373;
+}
+
+@theme inline {
+  --font-sans: var(--font-poppins);
+  --font-serif: var(--font-playfair);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom decorative elements */
+.sun-decoration {
+  background: radial-gradient(circle, #d4a373 0%, transparent 70%);
+  opacity: 0.1;
+}
+
+.flower-decoration {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 20c-5 0-10 5-10 10s5 10 10 10 10-5 10-10-5-10-10-10zm0 60c5 0 10-5 10-10s-5-10-10-10-10 5-10 10 5 10 10 10zm30-30c0-5-5-10-10-10s-10 5-10 10 5 10 10 10 10-5 10-10zm-60 0c0 5 5 10 10 10s10-5 10-10-5-10-10-10-10 5-10 10z' fill='%23F4C7D0' opacity='0.3'/%3E%3C/svg%3E")
+    no-repeat center;
+  background-size: contain;
+}
