@@ -13,7 +13,7 @@ export function Footer() {
               </div>
               <span className="font-serif text-xl font-bold">MyGlowStyle</span>
             </div>
-            <p className="text-background/60 text-xs mb-2 italic">sitio potenciado por PairPrograming</p>
+            <p className="text-background/60 text-md mb-2 italic">Virginia Gamulin</p>
             <p className="text-background/80 text-sm text-pretty leading-relaxed">
               Tu destino para el bronceado perfecto. Tratamientos orgánicos con aerógrafo para un resultado natural y
               duradero.
