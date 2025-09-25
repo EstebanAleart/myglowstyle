@@ -20,12 +20,16 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">MG</span>
-            </div>
+       <div className="flex items-center space-x-2">
+          <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
+            <span className="text-primary-foreground font-bold text-sm">VMG</span>
+          </div>
+
+          <div className="flex flex-col">
+            <p className="text-sm text-muted-foreground/70 italic">Virginia Gamulin</p>
             <span className="font-serif text-xl font-bold text-foreground">MyGlowStyle</span>
           </div>
+      </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

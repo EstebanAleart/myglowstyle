@@ -54,7 +54,7 @@ export function Hero() {
             MyGlowStyle
           </h1>
 
-          <p className="text-sm text-muted-foreground/70 mb-6 italic">sitio potenciado por PairPrograming</p>
+          <p className="text-md text-muted-foreground/70 mb-6 italic">Virginia Gamulin</p>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-pretty leading-relaxed max-w-3xl mx-auto">
