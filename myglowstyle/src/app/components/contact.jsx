@@ -196,7 +196,7 @@ ${formData.message}
                       className="bg-pink-600 hover:bg-pink-700 text-white flex items-center space-x-2"
                     >
                       <Instagram className="w-4 h-4" />
-                      <span>@vir.style</span>
+                      <span>vir.style</span>
                     </Button>
                   </div>
                 </div>

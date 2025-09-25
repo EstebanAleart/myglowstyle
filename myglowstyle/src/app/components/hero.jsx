@@ -54,7 +54,16 @@ export function Hero() {
             MyGlowStyle
           </h1>
 
-          <p className="text-md text-muted-foreground/70 mb-6 italic">Virginia Gamulin</p>
+          <p className="text-lg text-muted-foreground/70 mb-6 italic">
+            <a
+              href="https://www.instagram.com/vir.style/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              @vir.style
+            </a>
+          </p>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-pretty leading-relaxed max-w-3xl mx-auto">

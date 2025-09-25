@@ -7,13 +7,22 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {/* Brand */}
           <div className="mb-8 md:mb-0">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">MG</span>
-              </div>
+            <div className="flex flex-col items-start space-x-2 mb-4">
+              {/* <div className="w-12 h-12 bg-primary rounded-full flex flex-col items-center justify-center">
+                <span className="font-serif text-2xl font-bold text-primary-foreground select-none leading-none">V</span>
+                <span className="font-serif text-xs font-semibold text-primary-foreground select-none -mt-1">style</span>
+              </div> */}
               <span className="font-serif text-xl font-bold">MyGlowStyle</span>
+               <a
+              href="https://www.instagram.com/vir.style/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background/60 text-md mb-2 italic hover:underline"
+            >
+              @vir.style
+            </a>
             </div>
-            <p className="text-background/60 text-md mb-2 italic">Virginia Gamulin</p>
+           
             <p className="text-background/80 text-sm text-pretty leading-relaxed">
               Tu destino para el bronceado perfecto. Tratamientos orgánicos con aerógrafo para un resultado natural y
               duradero.
