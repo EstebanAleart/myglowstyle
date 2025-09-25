@@ -192,11 +192,11 @@ ${formData.message}
                       Síguenos para ver nuestros trabajos y novedades
                     </p>
                     <Button
-                      onClick={() => window.open("https://www.instagram.com/soyvirginiaestilo/", "_blank")}
+                      onClick={() => window.open("https://www.instagram.com/vir.style/", "_blank")}
                       className="bg-pink-600 hover:bg-pink-700 text-white flex items-center space-x-2"
                     >
                       <Instagram className="w-4 h-4" />
-                      <span>@soyvirginiaestilo</span>
+                      <span>@vir.style</span>
                     </Button>
                   </div>
                 </div>

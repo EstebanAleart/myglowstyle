@@ -41,7 +41,7 @@ export function Footer() {
             <h3 className="font-serif text-lg font-semibold mb-4">Síguenos</h3>
             <div className="flex space-x-4 mb-6">
               <a
-                href="https://www.instagram.com/soyvirginiaestilo/"
+                href="https://www.instagram.com/vir.style/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 bg-background/10 rounded-full flex items-center justify-center hover:bg-background/20 transition-colors"
