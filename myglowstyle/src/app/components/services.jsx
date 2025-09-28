@@ -89,7 +89,7 @@ export function Services() {
                     <IconComponent className="w-8 h-8 text-primary" />
                   </div>
                   <CardTitle className="text-2xl font-serif font-bold">{service.title}</CardTitle>
-                  <div className="text-3xl font-bold text-primary">{service.price}</div>
+                  {/* <div className="text-3xl font-bold text-primary">{service.price}</div> */}
                 </CardHeader>
 
                 <CardContent className="pt-0">
